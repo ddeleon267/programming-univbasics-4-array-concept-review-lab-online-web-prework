@@ -10,7 +10,6 @@ end
 
 def find_max_value(array)
   #array.max
-  
   max = 0
   i = 0
   
