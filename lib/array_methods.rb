@@ -11,11 +11,11 @@ end
 def find_max_value(array)
   #array.max
   
-  max = nil
+  max = 0
   i = 0
   
   while i < array.length
-    max = array[i] if max.nil? || array[i] > max
+    max = array[i] if array[i] > max
     i += 1
   end
   max
